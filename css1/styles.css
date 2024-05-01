@@ -43,11 +43,11 @@ body {
 }
 
 .container .row .youtube_video {
-  width: 60%;
+  width: 90%;
   background-color: #000;
   position: relative;
   padding-bottom: 33.25%;
-  height: 0;
+  height: 70px;
 }
 
 .container .row .youtube_video iframe {
@@ -135,3 +135,14 @@ body {
   width: 50px;
 }
 /*# sourceMappingURL=style.css.map */
+/*code si dessous a revoir */
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hvideo {
+    width: 100%;
+  }
+}
